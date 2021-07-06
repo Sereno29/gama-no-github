@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prática 2</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">    
+    </head>
+    <style>
+
+        .card-container{
+            display:flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .description{
+            text-align: center;
+            margin:5px 2px;
+            font-size: 10px;
+        }
+
+        .price{
+            font-weight: 600;
+        }
+
+        .buy-button{
+            border-radius: 5px;
+            background-color: #ffffff;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px 0;
+        }
+
+        .buy-button:hover{
+            cursor: pointer;
+            background-color: #000;
+            color:#fff;
+        }
+
+        div {
+            border: 1px solid black;
+            width: 200px;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        @media all and (max-width: 600px){
+            .buy-button{
+                width: 100%;
+                border-radius: 0;
+            }
+
+            .card{
+                flex-basis: 100%;
+            }
+
+            .description{
+                display: none;
+            }
+
+            img{
+                display: none;
+            }
+        }
+    </style>
+    <body>
+        <div class="card-container">
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <h3 class="product-name">Produto</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGt0trprCx3eCI_7w2ZzHXgh0nKD77CuDxQ&usqp=CAU">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint itaque sunt. Aliquid, libero. Minima, quas mollitia deleniti provident, obcaecati sint, eaque facere hic in quidem officia suscipit laudantium. Adipisci!</p>
+                <span class="price">Preço: R$ XXX,XX</span>
+                <button class="buy-button">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </body>
+</html>
